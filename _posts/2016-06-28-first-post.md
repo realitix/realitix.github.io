@@ -32,10 +32,21 @@ You need to compile the ICD driver because it's not released yet. Intel writes
 free drivers into the Mesa3D project. Vulkan supports is added in version 12
 which is not released, that's why we have to compile it.
 
-Clone the Mesa3D repo: `https://github.com/mesa3d/mesa.git` and execute
-`autogen.sh` to create the `configure.sh` file. You will get a lot of
-errors, don't be scared it's because you need to install packages.
-Search on internet an fix all errors. When it's done, run `make`.
+First, prepare your environment. On ubuntu 16.04, install theses packages :
+
+'''
+$ sudo apt-get install git dh-autoreconf pkg-config bison flex python-mako libpthread-stubs0-dev x11proto-gl-dev libdrm-dev x11proto-dri2-dev x11proto-dri3-dev x11proto-present-dev libxcb1-dev libxcb-dri3-dev libxcb-present-dev libxshmfence-dev libx11-xcb-dev libxext-dev libxdamage-dev libxcb-glx0-dev libxcb-dri2-0-dev libudev-dev libexpat1-dev llvm
+'''
+
+And execute theses commands :
+
+'''
+$ git clone https://github.com/mesa3d/mesa.git
+$ cd mesa
+$ ./autogen.sh
+$ ./configure --with-vulkan-drivers
+$ make
+'''
 
 **Warning: Do not run `sudo make install` !**
 
