@@ -74,11 +74,12 @@ We are going to download the SDK and compile it.
 ~/Vulkan-LoaderAndValidationLayers/dbuild$ make
 ```
 
-Let's put the SDK in the path:
+Let's put the SDK and driver in the path:
 
 ```
 ~$ export LD_LIBRARY_PATH=/home/user/Vulkan-LoaderAndValidationLayers/dbuild/loader
 ~$ export VK_LAYER_PATH=/home/user/Vulkan-LoaderAndValidationLayers/dbuild/layers
+~$ export VK_ICD_FILENAMES=/home/user/icd/intel_icd.json
 ```
 
 Everything should be good now, you can test vulkan with demo in `Vulkan-LoaderAndValidationLayers/dbuild/demos`
