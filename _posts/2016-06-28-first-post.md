@@ -35,7 +35,7 @@ which is not released, that's why we have to compile it.
 First, prepare your environment. On ubuntu 16.04, install theses packages :
 
 ```
-$ sudo apt-get install git dh-autoreconf pkg-config bison flex python-mako libpthread-stubs0-dev x11proto-gl-dev libdrm-dev x11proto-dri2-dev x11proto-dri3-dev x11proto-present-dev libxcb1-dev libxcb-dri3-dev libxcb-present-dev libxshmfence-dev libx11-xcb-dev libxext-dev libxdamage-dev libxcb-glx0-dev libxcb-dri2-0-dev libudev-dev libexpat1-dev llvm libssl-dev cmake
+$ sudo apt-get install git dh-autoreconf pkg-config bison flex python-mako libpthread-stubs0-dev x11proto-gl-dev libdrm-dev x11proto-dri2-dev x11proto-dri3-dev x11proto-present-dev libxcb1-dev libxcb-dri3-dev libxcb-present-dev libxshmfence-dev libx11-xcb-dev libxext-dev libxdamage-dev libxcb-glx0-dev libxcb-dri2-0-dev libudev-dev libexpat1-dev llvm llvm-dev libomxil-bellagio-dev libssl-dev cmake
 ```
 
 And execute theses commands :
