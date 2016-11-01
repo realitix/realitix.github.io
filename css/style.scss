@@ -270,6 +270,8 @@ ul {
 	.author-text {
 		text-align: center;
 		margin-top: 30px;
+        font-size: 30px;
+        text-transform: uppercase;
 
 		b {
 			font-size: 32px;
@@ -278,6 +280,7 @@ ul {
 
 	.links {
 		font-size: 2em;
+        margin-top: 30px;
 	}
 
 	.articles {
@@ -432,7 +435,7 @@ ul {
 	}
 
 	h2 {
-		font-size: 36px;
+		font-size: 34px;
 	}
 
 	h3 {
@@ -548,7 +551,7 @@ ul {
 			padding-bottom: 10px;
 
 			@media (min-width: $screen-sm-min) {
-				font-size: 24px;
+				font-size: 16px;
 				padding-left: 30px;
 				padding-right: 30px;
 				padding-top: 40px;
