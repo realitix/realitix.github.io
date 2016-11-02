@@ -8,9 +8,10 @@
 $twitter:        #6dabda;
 $linkedin:       #2b77b1;
 $google-plus:    #c95644;
-$github:         #f6c2a4;
+$github:         #6dabda;
 $stack-overflow: #c98b3b;
 $rss:            #eea33a;
+$prez:            #92C7A3;
 
 $darker:         #21211E;
 $dark:           #2D2D29;
@@ -194,6 +195,10 @@ ul {
 
 	.fa-stack-overflow:hover {
 		color: $stack-overflow;
+	}
+
+	.fa-picture-o:hover {
+		color: $prez;
 	}
 
 	.fa-rss:hover {
