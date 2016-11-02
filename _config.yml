@@ -12,6 +12,7 @@ post_limit: 20
 # Social usernames/URLs
 twitter_username: realitix
 github_username:  realitix
+stackoverflow_link: "http://stackoverflow.com/users/3327268/realitix"
 
 # Footer
 footer_left: "Made with <b>passion</b> by Jean-Sebastien Bevilacqua"
