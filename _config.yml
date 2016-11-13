@@ -4,7 +4,7 @@ email: realitix@gmail.com
 description: "Technical blog about things I enjoy"
 baseurl: ""
 url: "https://realitix.github.io"
-title_description: 'Deep in the code !'
+title_description: 'Deep in the code'
 title_image: "/img/avatar.png"
 github_repository: https://github.com/realitix
 post_limit: 20
