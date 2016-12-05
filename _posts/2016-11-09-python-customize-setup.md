@@ -96,4 +96,23 @@ And... it works like a charm!
 
 Do you enjoy the integrated `distutils` command ? Yes for sure !
 But what if you could create your custom command ? It's not a surprise
-but yes you can do it and you know how to do it !
+but yes you can do it !
+
+```python
+from distutils.cmd import Command
+
+class MyCommand(Command):
+    description = "Description of the command"
+    user_options = []
+
+    # This method must be implemented
+    def initialize_options(self):
+        pass
+
+    # This method must be implemented
+    def finalize_options(self):
+        pass
+
+    def run(self):
+        print("My command runs!")
+```
