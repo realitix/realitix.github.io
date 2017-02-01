@@ -7,7 +7,7 @@ category: vulkan
 thumbnail: cogs
 ---
 
-## Welcome, this is my first post!
+## Introduction
 
 In this post, I'm going to show you how to try Vulkan. I will not explain to
 you what is Vulkan, you are probably here because you know it and you want to

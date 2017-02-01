@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Python : customize setup actions"
+title:      "Python: customize setup actions"
 author:     realitix
 summary:    How to extend setup actions
 category:   python
