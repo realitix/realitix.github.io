@@ -22,7 +22,7 @@ In this article, we'll focus on the initialization of NumPy arrays.
 ## Context
 
 Usually, to create a NumPy array, you will use the `numpy.array` function but there is another way to do
-it: `numpy.fromiter`. The main difference is that `numpy.fromiter` can take any iterable, if you class
+it: `numpy.fromiter`. The main difference is that `numpy.fromiter` can take any iterable, if your class
 implements `__iter__`, you can pass it to `numpy.fromiter`.
 
 *Note, `numpy.fromiter` only work with 1-dimensional array.*
